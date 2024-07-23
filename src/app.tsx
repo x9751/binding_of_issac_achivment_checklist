@@ -81,7 +81,8 @@ export function App() {
 	]);
 
 	return (
-		<main className="bg-slate-900 text-white min-h-screen flex flex-col bg-[url('/background2.webp')] bg-fixed bg-cover bg-center bg-no-repeat">
+		<main className="text-white min-h-screen flex flex-col">
+			<img src="./background2.webp" className="fixed top-0 left-0 z-[-1] w-full h-full object-cover" />
 			<div className="container mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="flex items-center justify-center mt-10">
 					<h1 className="text-2xl font-bold">Achievements</h1>
